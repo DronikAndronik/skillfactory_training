@@ -1,0 +1,88 @@
+body{
+    display: grid;
+    justify-content: center;
+}
+
+ul  {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+ul li {
+    padding: 20px 20px 20px 20px;
+}
+
+li a {
+    font-size: 1.5em;
+    font-family: "Consolas";
+    color: rgb(35, 3, 121);
+    list-style: none;
+}
+
+.header {
+   position: relative;
+}
+
+
+.logoImg img{
+    width: 250px;
+}
+
+
+.mainInfo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    padding-right: 30px;
+}
+
+.data {
+    padding-left: 30px;
+    align-self: center;
+}
+
+.data p {
+    font-size: 2em;
+    font-family: "Consolas";
+}
+
+
+.footer {
+    font-family: "Consolas";
+    font-size: 1.7em;
+}
+.footer p{
+    margin-left: 10%;
+    font-family: "Consolas";
+}
+
+footer img {
+    margin-left: 20%;
+}
+
+.knowelege {
+    margin-top: 50px;
+    margin-left: 30%;
+}
+
+.knowelege form {
+    font-size: 1.2em;
+    font-family: "Consolas";
+}
+
+.output {
+        font-size: 1.2em;
+        font-family: "Consolas";
+}
+
+
+
+@font-face {
+    font-family: "Consolas"; 
+    src: url("/fonts/RalewayRegular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
